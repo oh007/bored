@@ -1,0 +1,66 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Source Code Pro', monospace;
+    background-image: url('background.jpeg');
+    background-size: 100%;
+    background-repeat: repeat;
+ color:#dedede;
+    text-align: center;
+}
+
+body > h1 {
+    margin-left: 20px;
+}
+.wrapper {
+    color:#dedede;
+    background: rgba(97, 95, 95, 0.48);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(97, 95, 95, 0.3);
+    display: row;
+    justify-content: center;
+    gap: 10px;
+    margin: auto;
+    padding:10px;
+}
+.new-thing{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    margin : 5%;
+    padding: 10%;
+    background: rgba(97, 95, 95, 0.48);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(97, 95, 95, 0.3);
+    font-size:25px
+}
+#new-btn{
+    box-shadow: 10px 5px 5px black;
+    background: rgba(97, 95, 95, 0.48);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(97, 95, 95, 0.3);
+    padding:10%;
+    color:#dedede;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom:10px;
+}
+
+#new-btn:hover{
+    background: darkgray;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+   
+}
