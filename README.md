@@ -1,6 +1,6 @@
-# ajax-demo-1
+# The boring website
 
-Vårt första lekpass med AJAX
+My first site using API , fetching data from https://www.boredapi.com/
 
-Vi ska dema Promise, fetch, async och await
+Im using typeScript , HTML and CSS :)
 
